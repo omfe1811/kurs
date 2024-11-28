@@ -10,8 +10,12 @@
         <!--create a form container-->
         <div class="container-fluid">
         <form method="POST">
-            <label for="usernameinput">User Name</label>
+            <label for="usernameinput" class="form-label">User Name</label>
+            <input type="text" class="form-control" name="usernameinput" id="userinput">
+            <label for="userpasswordinput" class="form-label">User Password</label>
+            <input type="password" class="form-control" name="userpasswordinput" id="userpassword">
         </form>
+        <button type="submit" id="formsubmitbutton" class="btn btn-dark mt-4">Submit</button>
         </div>
        
     </body>
