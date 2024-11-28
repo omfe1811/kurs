@@ -25,12 +25,18 @@
     <script>
         //it is my script
         console.log("it is working");
-        //dd event listener to button
+        //add event listener to button
 
-        document.getElementById("formsubmitbutton").addEventListener("click",()=>{
-
-            
+        document.getElementById("formsubmitbutton").addEventListener("click",(e)=>{
+            e.preventDefault();
+            let userName=document.getElementById("userinput").value;
+        console.log("you pressed submit button");
+        console.log(userName);
+        let=userPassword=document.getElementById("userpassword").value;
+        console.log(userPassword);
         });
+
+        
     </script>
 </body>
 
