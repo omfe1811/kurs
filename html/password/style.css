@@ -1,0 +1,12 @@
+body {
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#passwordform {
+  width: 250px;
+  height: auto;
+}
