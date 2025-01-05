@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Serif;
+  margin: auto;
+  width: 100%;
+  background-color: #f4f4f9;
+}
+main {
+  margin: auto;
+  padding: 5% 7% 7% 7%;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header {
+  background-color: #0b230f;
+  color: white;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  gap: 5%;
+  font-size: 3rem;
+}
+@font-face {
+  font-family: Serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts\Ubuntu\Ubuntu-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: Strong;
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts\Ubuntu\Ubuntu-Medium.ttf) format("ttf");
+}
+@media (min-width: 1000px) {
+  body {
+    font-family: Serif, Fallback, sans-serif;
+  }
+}
+
+img {
+  max-width: 200px; /* Set a maximum width for the image */
+  height: auto;
+}
+section {
+  margin-bottom: 40px;
+}
+strong {
+  font-family: Strong;
+  font-size: 18px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  border-bottom: 2px solid #0b230f;
+  color: #0b230f;
+}
+
+ul li {
+  margin: 2px 0;
+}
+a:hover {
+  color: #0b230f;
+}
+a {
+  color: #26522d;
+  background-color: transparent;
+  text-decoration: none;
+}
+.position {
+  padding-bottom: 3px;
+}
+.contact-info {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  justify-content: flex-start;
+  gap: 15px;
+}
+.skills span {
+  display: inline-block;
+  background: #0b230f;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 20px;
+}
+#education-languages {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#education-languages > section {
+  flex: 1;
+  min-width: 45%;
+}
